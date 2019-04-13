@@ -1,0 +1,69 @@
+{
+  "type" : "record",
+  "name" : "HousePrice",
+  "namespace" : "com.salesforce.app.schema",
+  "fields" : [ {
+    "name" : "id",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "date",
+    "type" : [ "double", "not null" ],
+  }, {
+    "name" : "price",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "bedrooms",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "bathrooms",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "sqft_living",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "sqft_lot",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "floors",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "waterfront",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "view",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "condition",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "grade",
+    "type" : [ "double", "null" ]
+  }
+    "name" : "sqft_above",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "sqft_basement",
+    "type" : [ "double", "null" ]
+  }
+    "name" : "yr_built",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "yr_renovated",
+    "type" : [ "double", "null" ]
+  }
+    "name" : "zipcode",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "lat",
+    "type" : [ "double", "null" ]
+  }
+    "name" : "long",
+    "type" : [ "double", "null" ]
+  }, {
+    "name" : "sqft_living15",
+    "type" : [ "double", "null" ]
+  }
+    "name" : "sqft_lot15",
+    "type" : [ "double", "null" ]
+  } ]
+}
